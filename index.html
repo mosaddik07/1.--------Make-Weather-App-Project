@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="card">
+        <!-- idea:------Search Bar Input---------->
+        <div class="search">
+          <input type="text" spellcheck="false" placeholder="Enter City Name" class="input_box" />
+          <div class="search_icon">
+            <img src="img/search.png" class="search_btn" />
+          </div>
+        </div>
+
+        <!-- idea:--------Weather Icon And City Name------------>
+
+        <div class="weather_img">
+          <img src="img/rain.png" id="weather_pic" />
+          <h1 class="c">0°C</h1>
+          <h2 class="city">JavaScript</h2>
+        </div>
+
+        <!-- idea:-------Weather Bottom Side------------->
+        <div class="bottom_weather">
+          <div class="left">
+            <img src="img/humidity.png" />
+            <div class="p_text">
+              <p class="humidityP">0%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="right">
+            <img src="img/wind.png" />
+            <div class="humidity">
+              <p class="wind">0 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- note:-------JS Connecting...---------->
+    <script src="script.js"></script>
+  </body>
+</html>
